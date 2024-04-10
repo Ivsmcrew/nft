@@ -1,3 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><svg viewBox="0 0 73 29" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style>:root>svg{display:none}:root>svg:target{display:block}</style><svg fill="none" viewBox="0 0 73 29" id="nft" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="utf-8"?><svg viewBox="0 0 73 45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style>:root>svg{display:none}:root>svg:target{display:block}</style><svg fill="none" viewBox="0 0 45 45" id="close" xmlns="http://www.w3.org/2000/svg">
+    <path d="m25.144 22.5 8.062-8.044a1.883 1.883 0 0 0-2.662-2.662L22.5 19.856l-8.044-8.062a1.883 1.883 0 0 0-2.662 2.662l8.062 8.044-8.062 8.044a1.874 1.874 0 0 0 0 2.662 1.875 1.875 0 0 0 2.662 0l8.044-8.062 8.044 8.062a1.875 1.875 0 0 0 2.662 0 1.876 1.876 0 0 0 0-2.662L25.144 22.5Z" fill="#fff"/>
+</svg><svg fill="none" viewBox="0 0 73 29" id="nft" xmlns="http://www.w3.org/2000/svg">
     <path d="M23.578 0v29h-3.484L3.89 6.23h-.29V29H0V0h3.484l16.261 22.826h.29V0h3.543ZM29.556 29V0h17.83v3.115H33.156v9.8H46.05v3.114H33.157V29h-3.6ZM50.7 3.115V0H73v3.115h-9.35V29h-3.6V3.115H50.7Z" fill="#fff"/>
 </svg></svg>
