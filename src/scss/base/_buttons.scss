@@ -1,0 +1,49 @@
+.main-button{
+  padding: 20px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(141deg, #1dd844 0%, #cbf62e 100%);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #1d2532;
+  filter: drop-shadow(0px 0px 5px #1dd844);
+
+  &:disabled{
+    filter: none;
+    color: rgba(36, 36, 36, 0.5);
+  }
+  &:hover{
+    filter: drop-shadow(0px 0px 15px #1dd844);
+  }
+  &:active{
+    filter: drop-shadow(0px 0px 5px #1dd844);
+  }
+}
+
+.add-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 16px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+
+  &:disabled{}
+  &:hover{
+    border: 1px solid #c3f33b;
+    color: #c3f33b;
+  }
+  &:active{
+    border: 1px solid #c3f33b;
+    background: rgba(224, 255, 172, 0.05);
+    backdrop-filter: blur(15px);
+    color: #c3f33b;
+  }
+}

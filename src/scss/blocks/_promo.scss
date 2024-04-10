@@ -1,0 +1,51 @@
+.promo{
+  position: relative;
+  width: 100%;
+  background-color: rgba(29, 37, 50, 1);
+  padding: 303px 320px 270px 320px;
+
+  &__desc{
+    width: 750px;
+    z-index: 10;
+    position: relative;
+  }
+  &__title{
+    font-size: 72px;
+    line-height: 105%;
+    letter-spacing: -0.03em;
+
+    &_bold{
+      font-weight: 700;
+    }
+  }
+  &__text{
+    display: block;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 23px;
+    line-height: 120%;
+    color: #cecece;
+  }
+  &__main-button{
+    margin-top: 67px;
+  }
+}
+.promo__ellipse{
+  position: absolute;
+  left: 100px;
+  top: -189px;
+  width: 415px;
+  height: 415px;
+  border-radius: 50%;
+  background: linear-gradient(171deg, #5f38ff 0%, #ff0ede 100%);
+  filter: blur(172px);
+  opacity: 0.3;
+  transform: rotate(12deg);
+}
+.promo__mascot{
+  width: 863px;
+  height: 708px;
+  position: absolute;
+  top: 185px;
+  right: 274px;
+}
