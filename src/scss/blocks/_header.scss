@@ -3,5 +3,47 @@
   top: 0;
   left: 0;
   right: 0;
-}
+  z-index: 100;
+  padding: 30px 320px;
+  display: flex;
+  align-items: center;
 
+  &__nav{
+    margin-left: auto;
+  }
+}
+.logo{
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+
+  &__ellipse{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: radial-gradient(95.39% 95.39% at 50.77% 4.62%, rgb(222, 168, 255) 0%, rgb(157, 106, 217) 44.51122283935547%, rgb(122, 43, 246) 100%);
+    transform: rotate(-25deg);
+  }
+}
+.nav{
+  display: flex;
+  align-items: center;
+
+  &__list{
+    display: flex;
+    column-gap: 105px;
+  }
+  &__add-button{
+    margin-left: 150px;
+  }
+  &__link{
+    font-weight: 400;
+    font-size: 23px; 
+    line-height: 120%;
+    color: #cecece;
+
+    &:hover{
+      color: white;
+    }
+  }
+}
