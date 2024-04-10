@@ -1,0 +1,127 @@
+.about{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 320px;
+  padding: 130px 0;
+  border-radius: 20px;
+  background: linear-gradient(203deg, #323e51 0%, #1d2532 100%);
+
+  &__title{
+    position: relative;
+    z-index: 10;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+  }
+  &__cards{
+    position: relative;
+    z-index: 10;
+    margin-top: 127px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 115px;
+    column-gap: 90px;
+  }
+  &__card{
+    
+  }
+}
+
+.card{
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 0);
+  z-index: 5;
+  width: 300px;
+  height: 310px;
+  border-radius: 20px;
+  backdrop-filter: blur(61px);
+  background: rgba(51, 62, 81, 0.7);  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 19px 50px 19px;
+  text-align: center;
+
+  &__img{
+    width: 127px;
+    height: 127px;
+  }
+  &__desc{
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 132%;
+    letter-spacing: -0.04em;
+  }
+  &__backlayer{
+    position: relative;
+    backdrop-filter: blur(55px);
+    background: rgba(51, 62, 81, 0.6);
+    border-radius: 20px;
+    width: 260px;
+    height: 268px;
+  }
+}
+
+.about__ellipse1{
+  position: absolute;
+  z-index: 1;
+  left: -68px;
+  bottom: 62px;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background: linear-gradient(171deg, #5f38ff 0%, #ff0ede 100%);
+  filter: blur(172px);
+  opacity: 0.2;
+}
+.about__ellipse2{
+  position: absolute;
+  z-index: 1;
+  right: -40px;
+  top: -85px;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background: linear-gradient(171deg, #5f38ff 0%, #ff0ede 100%);
+  filter: blur(172px);
+  opacity: 0.2;
+}
+.about__ellipse3{
+  position: absolute;
+  z-index: 1;
+  right: 166px;
+  bottom: 179px;
+  width: 131px;
+  height: 131px;
+  border-radius: 50%;
+  background: radial-gradient(95.39% 95.39% at 50.77% 4.62%, rgb(222, 168, 255) 0%, rgb(157, 106, 217) 44.51122283935547%, rgb(122, 43, 246) 100%);
+  filter: blur(10px);
+}
+.about__ellipse4{
+  position: absolute;
+  z-index: 1;
+  top: 104px;
+  left: 164px;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: radial-gradient(66.01% 76.73% at 65.32% 77.65%, rgb(4, 93, 250) 0%, rgb(15, 193, 215) 83.16354751586914%, rgb(6, 246, 199) 100%);
+}
+.about__ellipse5{
+  position: absolute;
+  z-index: 1;
+  top: -90px;
+  right: 95px;
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  background: radial-gradient(95.39% 95.39% at 50.77% 4.62%, rgb(222, 168, 255) 0%, rgb(157, 106, 217) 44.51122283935547%, rgb(122, 43, 246) 100%);
+}
