@@ -27,9 +27,6 @@
     row-gap: 115px;
     column-gap: 90px;
   }
-  &__card{
-    
-  }
 }
 
 .card{
@@ -124,4 +121,89 @@
   height: 152px;
   border-radius: 50%;
   background: radial-gradient(95.39% 95.39% at 50.77% 4.62%, rgb(222, 168, 255) 0%, rgb(157, 106, 217) 44.51122283935547%, rgb(122, 43, 246) 100%);
+}
+
+@include smallDesk {
+  .about{
+    margin: 150px 150px;
+    padding: 110px 0;
+  }
+  .about__ellipse3{
+    right: 80px;
+  }
+  .about__ellipse4{
+    left: 80px;
+  }
+}
+@include tablet {
+  .about{
+    margin: 100px 50px;
+    padding: 70px 0;
+  }
+}
+@include mobile {
+  .about{
+    margin: 70px 0 0 0;
+    padding: 40px 0;
+  }
+  .about__title{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 130%;
+    width: 180px;
+  }
+  .about__cards{
+    margin-top: 85px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 90px;
+  }
+  .card{
+    bottom: 17px;
+    width: 260px;
+    height: 273px;
+    border-radius: 20px;
+    padding: 69px 23px 47px 23px;
+  
+    &__img{
+      width: 83px;
+      height: 83px;
+    }
+    &__desc{
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 156%;
+    }
+    &__backlayer{
+      width: 226px;
+      height: 235px;
+    }
+  }
+  .about__ellipse1{
+    display: none;
+  }
+  .about__ellipse2{
+    right: 0px;
+    top: -85px;
+    width: 140px;
+    height: 140px;
+  }
+  .about__ellipse3{
+    width: 62px;
+    height: 62px;
+    right: 1px;
+    bottom: 8px;
+  }
+  .about__ellipse4{
+    width: 22px;
+    height: 22px;
+    top: 104px;
+    left: 20px;
+  }
+  .about__ellipse5{
+    width: 88px;
+    height: 88px;
+    top: -50px;
+    right: -20px;
+  }
 }
