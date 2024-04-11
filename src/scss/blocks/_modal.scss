@@ -37,8 +37,6 @@
 .modal__h2{
   font-weight: 700;
   font-size: 45px;
-
-  // line-height: 47px; 
   line-height: 105%;
   letter-spacing: -0.03em;
   color: #fff;
@@ -78,4 +76,42 @@
 .modal__main-button{
   width: 100%;
   margin-top: 18px;
+}
+
+@include mobile {
+  .modal{
+    width: 320px;
+    height: 337px;
+    border-radius: 20px;
+  }
+  .modal__content{
+    margin-top: 45px;
+    margin-left: 16px;
+    width: 288px;
+  }
+  .modal__h2{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+  }
+  .modal__p{
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 120%;
+  }
+  .modal__form{
+    margin-top: 25px;
+    width: 288px;
+  }
+  .modal__main-button{
+    font-size: 16px;
+    margin-top: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .modal__button{
+    margin-top: 16px;
+    margin-right: auto;
+    margin-left: -40px;
+  }
 }
